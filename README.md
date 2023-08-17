@@ -7,50 +7,49 @@
 ---------------------------------------------------------
 	──────────────────────────────────────────────────────────────────────────────────────────
 	|
-    ├── LICENSE			# MIT License
+    ├── LICENSE		# MIT License
 	|
 	|                         		
-    ├── README.md			# The top-level README for developers using this project.
+    ├── README.md		# The top-level README for developers using this project.
 	|
 	|
-    ├── files			# Contains related project files. 
+    ├── files		# Contains related project files. 
     │                          		
     │
-    ├── requirements.txt		# Requirements file for reproducing the analysis environment.
+    ├── requirements.txt	# Requirements file for reproducing the analysis environment.
     │                         			
 	│                         		
-    ├── setup.py			# Makes project pip installable (pip install -e .), so source folder can be imported.
+    ├── setup.py		# Makes project pip installable (pip install -e .), so source folder can be imported.
 	│                         			
 	│  
-    ├── lyrics_crawler			# Source code for use in the project.
-    │   ├── __init__.py			# Makes 'lyrics_crawler' a Python module.
+    ├── lyrics_crawler	# Source code for use in the project.
+    │   │
+    │   ├── __init__.py	# Makes 'lyrics_crawler' a Python module.
     │   │
     │   │
-    │   ├── lyrics_crawler			# Primary Scrapy folder.
+    │   ├── lyrics_crawler	# Primary Scrapy folder.
     │   │             │
-    │   │             └── __init__.py		
+    │   │             ├── __init__.py		
     │   │             │
-    │   │             └── spiders			# Folder which holds the spider scripts.
+    │   │             ├── spiders		# Folder which holds the spider scripts.
     │   │             │          └── __init__.py	
-    │   │             │          └── _xp_01.py			# Spider for testing a basic Crawling procedure.
+    │   │             │          └── _xp_01.py	# Spider for testing a basic Crawling procedure.
     │   │             │
-    │   │             └── items.py	# Item containers
+    │   │             ├── items.py	# Item containers
     │   │             │
-    │   │             └── middlewares.py			# Middleware Settings	
+    │   │             ├── middlewares.py		# Middleware Settings	
     │   │             │
-    │   │             └── pipelines.py			# Database Connection
+    │   │             ├── pipelines.py	# Database Connection
     │   │             │
-    │   │             └── settings.py			# Scrapy Settings such as Proxies, User Agents, etc.
+    │   │             └── settings.py	# Scrapy Settings such as Proxies, User Agents, etc.
     │   │
     │   │
-    │   ├── Lyrics_Scraping.egg-info		# Contains additional package information
+    │   ├── Lyrics_Scraping.egg-info# Contains additional package information
     │   │
     │   │
-    │   ├── scrapy.cfg			# Scrapy Configuration File
+    │   └── scrapy.cfg	# Scrapy Configuration File
     │  
 	└─────────────────────────────────────────────────────────────────────────────────────────
-
-
 --------
 
 </br></br>
