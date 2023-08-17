@@ -3,40 +3,59 @@
 ## ! Work in Progress... !
 
 </br></br>
-## Package Installation
-
-
 ## Project Organization
 ---------------------------------------------------------
-
-    ├── LICENSE
+	──────────────────────────────────────────────────────────────────────────────────────────
 	|
-    ├── README.md        <- The top-level README for developers using this project.
+    ├── LICENSE				# MIT License
 	|
+	|                         		
+    ├── README.md			# The top-level README for developers using this project.
+	|
+	|
+    ├── files					# Contains related project files.
+    │                          		
     │
-    ├── files                 <- Contains related project files.
-    │   
-    ├── figures                 <- Graphs generated from the scraped data.
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         			generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
+    ├── requirements.txt	# Requirements file for reproducing the analysis environment.
+    │                         			
+	│                         		
+    ├── setup.py				# Makes project pip installable (pip install -e .), so source folder can be imported.
+	│                         			
+	│  
+    ├── lyrics_crawler		# Source code for use in the project.
+    │   ├── __init__.py		# Makes 'lyrics_crawler' a Python module.
     │   │
-    │   ├── main            <- Contains scripts for automating web scraping using Selenium
-    │   │   └── amazon.py
     │   │
-    │   ├── visualization   <- Scripts folder for data analysis and visualization
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    │   ├── lyrics_crawler						# Primary Scrapy folder.
+    │   │ 			│
+    │   │				└── __init__.py		
+    │   │ 			│
+    │   │				└── spiders				# Folder which holds the spider scripts.
+    │   │ 			│			└── __init__.py	
+    │   │ 			│			└── _xp_01.py				# Spider for testing a basic Crawling procedure.
+    │   │ 			│
+    │   │				└── items.py	# Item containers
+    │   │ 			│
+    │   │				└── middlewares.py	# Middleware Settings	
+    │   │ 			│
+    │   │				└── pipelines.py			# Database Connection
+    │   │ 			│
+    │   │				└── settings.py			# Scrapy Settings such as Proxies, User Agents, etc.
+    │   │
+    │   │
+    │   ├── Lyrics_Scraping.egg-info		# Contains additional package information
+    │   │
+    │   │
+    │   ├── scrapy.cfg		# Scrapy Configuration File
+    │  
+	└─────────────────────────────────────────────────────────────────────────────────────────
 
 
 --------
 
+</br></br>
 
+## Package Installation
 ### ◘ Requirements
 * setuptools~=68.1.0
 * scrapy~=2.10.0
