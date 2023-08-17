@@ -7,7 +7,7 @@
 ---------------------------------------------------------
 	──────────────────────────────────────────────────────────────────────────────────────────
 	|
-    ├── LICENSE		# MIT License
+    ├── LICENSE		# MIT License.
 	|
 	|                         		
     ├── README.md		# The top-level README for developers using this project.
@@ -27,7 +27,7 @@
     │   ├── __init__.py	# Makes 'lyrics_crawler' a Python module.
     │   │
     │   │
-    │   ├── lyrics_crawler	# Primary Scrapy folder.
+    │   ├── lyrics_crawler	# Primary Scrapy hierarchy.
     │   │             │
     │   │             ├── __init__.py		
     │   │             │
@@ -35,19 +35,19 @@
     │   │             │          └── __init__.py	
     │   │             │          └── _xp_01.py	# Spider for testing a basic Crawling procedure.
     │   │             │
-    │   │             ├── items.py		# Item containers
+    │   │             ├── items.py		# Item containers.
     │   │             │
-    │   │             ├── middlewares.py	# Middleware Settings	
+    │   │             ├── middlewares.py	# Middleware Settings.
     │   │             │
-    │   │             ├── pipelines.py	# Database Connection
+    │   │             ├── pipelines.py	# Database Connection.
     │   │             │
     │   │             └── settings.py	# Scrapy Settings such as Proxies, User Agents, etc.
     │   │
     │   │
-    │   ├── Lyrics_Scraping.egg-info        # Contains additional package information
+    │   ├── Lyrics_Scraping.egg-info        # Contains additional package information.
     │   │
     │   │
-    │   └── scrapy.cfg	# Scrapy Configuration File
+    │   └── scrapy.cfg	# Scrapy Configuration File.
     │  
 	└─────────────────────────────────────────────────────────────────────────────────────────
 --------
