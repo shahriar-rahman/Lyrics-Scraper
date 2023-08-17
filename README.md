@@ -78,7 +78,8 @@ pip install setuptools
 ```
 python setup.py sdist bdist_wheel
 ```
-If any error is encountered, then run ```python setup.py sdist```.
+If any error is encountered, then run ```python setup.py sdist```
+
 3. In order to install all the requirements, run the following command:
 ```
 pip install .                                 
