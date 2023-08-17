@@ -64,7 +64,7 @@
 
 ### ◘ Module Installation (setup.py)
 1. To use the *setup.py* file in Python, the first objective is to have the *setuptools* module installed. It can be accomplished by running the following command:
-```pip
+```python
 pip install setuptools                                     
 ```
 2. Once the setuptools module is installed, use the setup.py file to build and distribute the Python package by running the following command:
