@@ -96,7 +96,7 @@ pip install .
 <br/>
 
 ### ◘ Representation of the Scrapy Architecture
-![alt text](https://github.com/shahriar-rahman/Lyrics-Scraping/blob/main/files/img/directory_scrapy.png)
+![alt text](https://github.com/shahriar-rahman/Lyrics-Scraping/blob/main/files/img/scrapy_architecture.png)
 
 <br/>
 
