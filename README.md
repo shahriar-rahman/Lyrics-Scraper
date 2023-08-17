@@ -102,9 +102,7 @@ pip install .
 
 ### ◘ Executing the Spider scripts
 Open the project inside any IDE, then use its terminal to access the *Scrapy Project* by running the following command:
-```
-> cd lyrics_crawler
-```
+`> cd lyrics_crawler`
 Finally, initiate the crawling process by executing the spider:
 ```
 > scrapy crawl spiderName
