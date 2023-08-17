@@ -3,15 +3,13 @@
 </br>
 
 ## Work in Progress...
-</br>
+
+</br></br>
+## Package Installation
 
 ### ◘ Requirements
-* selenium~=4.8.3
-* pandas~=2.0.0
-* openpyxl~=3.1.2
-* matplotlib~=3.7.1
-* seaborn~=0.12.2
-* setuptools~=65.5.1
+* setuptools~=68.1.0
+* scrapy~=2.10.0
 
 </br></br>
 
@@ -35,24 +33,15 @@ pip install .
 ### ◘ Python Library Installation (using pip)
 In order to *install* the required packages on the local machine, Open pip and run the following commands separately:
 ```
-> pip install selenium                    
-
-> pip install pandas                                                                                           
-
-> pip install seaborn
-
-> pip install matplotlib                            
+> pip install scrapy                            
 ```
 
 <br/><br/>
 
 ### ◘ Supplementary Resources
 For more details, visit the following links:
-* https://pypi.org/project/setuptools/
-* https://pypi.org/project/selenium/
-* https://pypi.org/project/pandas/
-* https://pypi.org/project/seaborn/
-* https://pypi.org/project/matplotlib/
+* https://docs.scrapy.org/en/latest/intro/install.html
+* https://pypi.org/project/Scrapy/
 
 <br/><br/>
 
