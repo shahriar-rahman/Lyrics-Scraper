@@ -35,7 +35,7 @@
     │   │             │          └── __init__.py	
     │   │             │          └── _xp_01.py	# Spider for testing a basic Crawling procedure.
     │   │             │
-    │   │             ├── items.py	# Item containers
+    │   │             ├── items.py		# Item containers
     │   │             │
     │   │             ├── middlewares.py	# Middleware Settings	
     │   │             │
