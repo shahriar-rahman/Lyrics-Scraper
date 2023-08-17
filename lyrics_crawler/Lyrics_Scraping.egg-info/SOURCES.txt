@@ -1,0 +1,13 @@
+setup.py
+lyrics_crawler/Lyrics_Scraping.egg-info/PKG-INFO
+lyrics_crawler/Lyrics_Scraping.egg-info/SOURCES.txt
+lyrics_crawler/Lyrics_Scraping.egg-info/dependency_links.txt
+lyrics_crawler/Lyrics_Scraping.egg-info/requires.txt
+lyrics_crawler/Lyrics_Scraping.egg-info/top_level.txt
+lyrics_crawler/lyrics_crawler/__init__.py
+lyrics_crawler/lyrics_crawler/items.py
+lyrics_crawler/lyrics_crawler/middlewares.py
+lyrics_crawler/lyrics_crawler/pipelines.py
+lyrics_crawler/lyrics_crawler/settings.py
+lyrics_crawler/lyrics_crawler/spiders/__init__.py
+lyrics_crawler/lyrics_crawler/spiders/_xp_01.py

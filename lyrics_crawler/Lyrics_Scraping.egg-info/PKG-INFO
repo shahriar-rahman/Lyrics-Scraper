@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Lyrics-Scraping
+Version: 0.2.0
+Summary: Crawler programmed to crawl the website, parse, and scrape relevant lyrics of a particular artist.
+Author: Shahriar Rahman
+Author-email: shahriarrahman1101@gmail.com
+License: MIT
+Requires-Python: >=3.11, <4
