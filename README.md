@@ -2,7 +2,7 @@
 # Lyrics Scraping
 ## ! Work in Progress... !
 
-</br></br>
+<br/><br/>
 ## Project Organization
 ---------------------------------------------------------
 	──────────────────────────────────────────────────────────────────────────────────────────
@@ -52,14 +52,14 @@
 	└─────────────────────────────────────────────────────────────────────────────────────────
 --------
 
-</br></br>
+<br/><br/>
 
 ## Package Installation
 ### ◘ Requirements
 * setuptools~=68.1.0
 * scrapy~=2.10.0
 
-</br></br>
+</br>
 
 
 ### ◘ Module Installation (setup.py)
@@ -80,7 +80,7 @@ python setup.py sdist
 pip install .                                 
 ```
 
-<br/><br/>
+<br/>
 
 ### ◘ Python Library Installation (using pip)
 In order to *install* the required packages on the local machine, Open pip and run the following commands separately:
@@ -88,7 +88,7 @@ In order to *install* the required packages on the local machine, Open pip and r
 > pip install scrapy                            
 ```
 
-<br/><br/>
+<br/>
 
 ### ◘ Supplementary Resources
 For more details, visit the following links:
@@ -97,6 +97,7 @@ For more details, visit the following links:
 
 <br/><br/>
 
+## License
 ### ◘ MIT License
 Copyright (c) 2023 Shahriar Rahman
 
