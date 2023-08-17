@@ -5,6 +5,38 @@
 </br></br>
 ## Package Installation
 
+
+## Project Organization
+---------------------------------------------------------
+
+    ├── LICENSE
+	|
+    ├── README.md        <- The top-level README for developers using this project.
+	|
+    │
+    ├── files                 <- Contains related project files.
+    │   
+    ├── figures                 <- Graphs generated from the scraped data.
+    │
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         			generated with `pip freeze > requirements.txt`
+    │
+    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   ├── main            <- Contains scripts for automating web scraping using Selenium
+    │   │   └── amazon.py
+    │   │
+    │   ├── visualization   <- Scripts folder for data analysis and visualization
+    │       └── visualize.py
+    │
+    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
+
+--------
+
+
 ### ◘ Requirements
 * setuptools~=68.1.0
 * scrapy~=2.10.0
