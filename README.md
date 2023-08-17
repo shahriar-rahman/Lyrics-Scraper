@@ -13,7 +13,7 @@
     ├── README.md			# The top-level README for developers using this project.
 	|
 	|
-    ├── files					# Contains related project files.
+    ├── files					# Contains related project files. 
     │                          		
     │
     ├── requirements.txt	# Requirements file for reproducing the analysis environment.
