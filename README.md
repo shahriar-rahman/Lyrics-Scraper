@@ -16,7 +16,7 @@
     ├── files			# Contains related project files. 
     │                          		
     │
-    ├── requirements.txt			# Requirements file for reproducing the analysis environment.
+    ├── requirements.txt		# Requirements file for reproducing the analysis environment.
     │                         			
 	│                         		
     ├── setup.py			# Makes project pip installable (pip install -e .), so source folder can be imported.
@@ -27,8 +27,8 @@
     │   │
     │   │
     │   ├── lyrics_crawler			# Primary Scrapy folder.
-    │   │ 			│
-    │   │				└── __init__.py		
+    │   │             │
+    │   │             └── __init__.py		
     │   │ 			│
     │   │				└── spiders			# Folder which holds the spider scripts.
     │   │ 			│			└── __init__.py	
@@ -43,7 +43,7 @@
     │   │				└── settings.py			# Scrapy Settings such as Proxies, User Agents, etc.
     │   │
     │   │
-    │   ├── Lyrics_Scraping.egg-info			# Contains additional package information
+    │   ├── Lyrics_Scraping.egg-info		# Contains additional package information
     │   │
     │   │
     │   ├── scrapy.cfg			# Scrapy Configuration File
