@@ -87,7 +87,7 @@ pip install .
 
 <br/>
 
-### ◘ Representation of Scrapy subfolders
+### ◘ Representation of Scrapy Architecture
 ![alt text](https://github.com/shahriar-rahman/Lyrics-Scraping/blob/main/files/img/directory_scrapy.png)
 
 <br/>
