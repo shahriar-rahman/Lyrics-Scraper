@@ -90,6 +90,24 @@ In order to *install* the required packages on the local machine, Open pip and r
 
 <br/>
 
+### ◘ Executing the Spider scripts
+Open the project inside any IDE, then use its terminal to access the Scrapy folder by running the following command:
+```
+> cd lyrics_crawler
+```
+The overall directory should look like this:
+```
+> ..\Lyrics-Scraping\lyrics_crawler
+```
+Finally, initiate the crawling process by executing the spider:
+```
+> scrapy crawl spiderName
+``` 
+where spiderName is the name instantiated inside the spider script.
+
+
+<br/>
+
 ### ◘ Supplementary Resources
 For more details, visit the following links:
 * https://docs.scrapy.org/en/latest/intro/install.html
