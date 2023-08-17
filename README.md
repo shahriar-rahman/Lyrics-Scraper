@@ -101,7 +101,7 @@ Open the project inside any IDE, then use its terminal to access the *Scrapy Pro
 ```
 Finally, initiate the crawling process by executing the spider:
 ```
-> <span style="font-family:Lucida Sans Unicode; color:#80450e; font-size: 25px"> 1 Construct proper data </span> crawl spiderName
+> scrapy crawl spiderName
 ``` 
 where *spiderName* is the name instantiated inside the spider script.
 
