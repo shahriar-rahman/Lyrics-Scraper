@@ -91,7 +91,7 @@ In order to *install* the required packages on the local machine, Open pip and r
 <br/>
 
 ### ◘ Executing the Spider scripts
-Open the project inside any IDE, then use its terminal to access the Scrapy folder by running the following command:
+Open the project inside any IDE, then use its terminal to access the *Scrapy Project* by running the following command:
 ```
 > cd lyrics_crawler
 ```
@@ -103,7 +103,7 @@ Finally, initiate the crawling process by executing the spider:
 ```
 > scrapy crawl spiderName
 ``` 
-where spiderName is the name instantiated inside the spider script.
+where *spiderName* is the name instantiated inside the spider script.
 
 
 <br/>
