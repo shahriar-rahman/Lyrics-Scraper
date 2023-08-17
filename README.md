@@ -7,26 +7,26 @@
 ---------------------------------------------------------
 	──────────────────────────────────────────────────────────────────────────────────────────
 	|
-    ├── LICENSE				# MIT License
+    ├── LICENSE			# MIT License
 	|
 	|                         		
     ├── README.md			# The top-level README for developers using this project.
 	|
 	|
-    ├── files					# Contains related project files. 
+    ├── files			# Contains related project files. 
     │                          		
     │
-    ├── requirements.txt	# Requirements file for reproducing the analysis environment.
+    ├── requirements.txt			# Requirements file for reproducing the analysis environment.
     │                         			
 	│                         		
-    ├── setup.py				# Makes project pip installable (pip install -e .), so source folder can be imported.
+    ├── setup.py			# Makes project pip installable (pip install -e .), so source folder can be imported.
 	│                         			
 	│  
-    ├── lyrics_crawler		# Source code for use in the project.
-    │   ├── __init__.py		# Makes 'lyrics_crawler' a Python module.
+    ├── lyrics_crawler			# Source code for use in the project.
+    │   ├── __init__.py			# Makes 'lyrics_crawler' a Python module.
     │   │
     │   │
-    │   ├── lyrics_crawler						# Primary Scrapy folder.
+    │   ├── lyrics_crawler			# Primary Scrapy folder.
     │   │ 			│
     │   │				└── __init__.py		
     │   │ 			│
