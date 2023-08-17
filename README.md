@@ -61,6 +61,13 @@
 
 </br>
 
+### ◘ Library Installation (using pip)
+In order to *install* the required packages on the local machine, Open pip and run the following commands separately:
+```
+> pip install scrapy                            
+```
+
+<br/>
 
 ### ◘ Module Installation (setup.py)
 1. To use the *setup.py* file in Python, the first objective is to have the *setuptools* module installed. It can be accomplished by running the following command:
@@ -82,11 +89,8 @@ pip install .
 
 <br/>
 
-### ◘ Python Library Installation (using pip)
-In order to *install* the required packages on the local machine, Open pip and run the following commands separately:
-```
-> pip install scrapy                            
-```
+### ◘ Representation of Scrapy subfolders
+![alt text](https://github.com/shahriar-rahman/Lyrics-Scraping/blob/main/files/img/directory_scrapy.png)
 
 <br/>
 
