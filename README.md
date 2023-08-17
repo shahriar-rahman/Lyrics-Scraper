@@ -61,6 +61,13 @@
 
 </br>
 
+### ◘ Software Specification
+* Python~=3.11.3
+* PyCharm IDE 2023.1
+* Notepad++ v6.9.2
+
+<br/>
+
 ### ◘ Library Installation (using pip)
 In order to *install* the required packages on the local machine, Open pip and run the following commands separately:
 ```
@@ -69,12 +76,6 @@ In order to *install* the required packages on the local machine, Open pip and r
 
 <br/>
 
-### ◘ Software Specification
-* Python~=3.11.3
-* PyCharm IDE 2023.1
-* Notepad++ v6.9.2
-
-<br/>
 
 ### ◘ Module Installation (setup.py)
 1. To use the *setup.py* file in Python, the first objective is to have the *setuptools* module installed. It can be accomplished by running the following command:
