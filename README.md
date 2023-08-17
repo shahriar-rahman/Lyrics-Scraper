@@ -37,14 +37,14 @@
     │   │             │
     │   │             ├── items.py	# Item containers
     │   │             │
-    │   │             ├── middlewares.py		# Middleware Settings	
+    │   │             ├── middlewares.py	# Middleware Settings	
     │   │             │
     │   │             ├── pipelines.py	# Database Connection
     │   │             │
     │   │             └── settings.py	# Scrapy Settings such as Proxies, User Agents, etc.
     │   │
     │   │
-    │   ├── Lyrics_Scraping.egg-info# Contains additional package information
+    │   ├── Lyrics_Scraping.egg-info # Contains additional package information
     │   │
     │   │
     │   └── scrapy.cfg	# Scrapy Configuration File
