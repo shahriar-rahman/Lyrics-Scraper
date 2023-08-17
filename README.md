@@ -29,18 +29,18 @@
     │   ├── lyrics_crawler			# Primary Scrapy folder.
     │   │             │
     │   │             └── __init__.py		
-    │   │ 			│
-    │   │				└── spiders			# Folder which holds the spider scripts.
-    │   │ 			│			└── __init__.py	
-    │   │ 			│			└── _xp_01.py			# Spider for testing a basic Crawling procedure.
-    │   │ 			│
-    │   │				└── items.py	# Item containers
-    │   │ 			│
-    │   │				└── middlewares.py			# Middleware Settings	
-    │   │ 			│
-    │   │				└── pipelines.py			# Database Connection
-    │   │ 			│
-    │   │				└── settings.py			# Scrapy Settings such as Proxies, User Agents, etc.
+    │   │             │
+    │   │             └── spiders			# Folder which holds the spider scripts.
+    │   │             │          └── __init__.py	
+    │   │             │          └── _xp_01.py			# Spider for testing a basic Crawling procedure.
+    │   │             │
+    │   │             └── items.py	# Item containers
+    │   │             │
+    │   │             └── middlewares.py			# Middleware Settings	
+    │   │             │
+    │   │             └── pipelines.py			# Database Connection
+    │   │             │
+    │   │             └── settings.py			# Scrapy Settings such as Proxies, User Agents, etc.
     │   │
     │   │
     │   ├── Lyrics_Scraping.egg-info		# Contains additional package information
