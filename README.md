@@ -109,7 +109,7 @@ Finally, initiate the crawling process by executing the spider:
 ```
 > scrapy crawl spiderName
 ``` 
-where *spiderName* is the name instantiated inside the spider script.
+where *spiderName* is the name declared inside the spider script.
 
 
 <br/>
