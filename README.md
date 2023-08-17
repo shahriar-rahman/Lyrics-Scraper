@@ -44,7 +44,7 @@
     │   │             └── settings.py	# Scrapy Settings such as Proxies, User Agents, etc.
     │   │
     │   │
-    │   ├── Lyrics_Scraping.egg-info      # Contains additional package information
+    │   ├── Lyrics_Scraping.egg-info         # Contains additional package information
     │   │
     │   │
     │   └── scrapy.cfg	# Scrapy Configuration File
