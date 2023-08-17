@@ -100,8 +100,8 @@ Open the project inside any IDE, then use its terminal to access the *Scrapy Pro
 > cd lyrics_crawler
 ```
 Finally, initiate the crawling process by executing the spider:
-```py3
-> scrapy crawl spiderName
+```
+> <span color:#80450e;">scrapy</span> crawl spiderName
 ``` 
 where *spiderName* is the name instantiated inside the spider script.
 
