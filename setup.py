@@ -16,6 +16,7 @@ setup(
     install_requires=[
         'setuptools~=68.1.0',
         'scrapy~=2.10.0',
+        'scrapy-user-agents~=0.1.1',
     ],
 
 )
