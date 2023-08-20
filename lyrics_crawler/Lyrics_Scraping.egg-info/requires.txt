@@ -1,2 +1,0 @@
-setuptools~=68.1.0
-scrapy~=2.10.0

@@ -1,4 +1,4 @@
-# Scrapy settings for lyrics_crawler project
+# Scrapy settings for lyrics_crawlers project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "lyrics_crawler"
+BOT_NAME = "lyrics_crawlers"
 
-SPIDER_MODULES = ["lyrics_crawler.spiders"]
-NEWSPIDER_MODULE = "lyrics_crawler.spiders"
+SPIDER_MODULES = ["lyrics_crawlers.spiders"]
+NEWSPIDER_MODULE = "lyrics_crawlers.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "lyrics_crawler (+http://www.yourdomain.com)"
+#USER_AGENT = "lyrics_crawlers (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,18 +45,18 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "lyrics_crawler.middlewares.LyricsCrawlerSpiderMiddleware": 543,
+#    "lyrics_crawlers.middlewares.LyricsCrawlersSpiderMiddleware": 543,
 #}
-
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
     'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
 }
 
+
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "lyrics_crawler.middlewares.LyricsCrawlerDownloaderMiddleware": 543,
+#    "lyrics_crawlers.middlewares.LyricsCrawlersDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -67,9 +67,9 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "lyrics_crawler.pipelines.LyricsCrawlerPipeline": 300,
-#}
+ITEM_PIPELINES = {
+   "lyrics_crawlers.pipelines.LyricsCrawlersPipeline": 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

@@ -6,7 +6,12 @@
 import scrapy
 
 
-class LyricsCrawlerItem(scrapy.Item):
+class LyricsCrawlersItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    title = scrapy.Field()
+    artist = scrapy.Field()
+    album = scrapy.Field()
+    year = scrapy.Field()
+    writer = scrapy.Field()
+    lyrics = scrapy.Field()
     pass
