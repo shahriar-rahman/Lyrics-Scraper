@@ -15,9 +15,9 @@ class SoundtrackScraping(scrapy.Spider):
     sc = py_scrape.ScrapeUtils()
 
     gu.load_separator('dash')
-    # data = gu.load_json('../datasets/track_links.json')
-    # start_urls = data['artist_links']
-    start_urls = ['https://www.azlyrics.com/lyrics/doors/ridersonthestorm.html']
+    data = gu.load_json('../datasets/track_links.json')
+    start_urls = data['artist_links']
+    # start_urls = ['https://www.azlyrics.com/lyrics/doors/ridersonthestorm.html']
 
     # Xpath Codes
     common_xpath = '/html/body/div[2]/div[2]/div[2]'
