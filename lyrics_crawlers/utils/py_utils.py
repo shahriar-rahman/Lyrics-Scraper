@@ -36,6 +36,22 @@ class GenericUtils:
             print("Json storage is successful.")
 
     @staticmethod
+    def save_df(df, path, ext):
+        try:
+            if ext == 'csv':
+                df.to_csv(path, sep=',')
+
+            elif ext == 'xlsx':
+                df.to_excel(path)
+
+        except Exception as exc:
+            print(f"! Failed to save data. !\n", exc)
+
+        else:
+            print("Dataframe storage is successful.")
+
+
+    @staticmethod
     def load_separator(key):
         if key == 'dash':
             print('-' * 150)
@@ -45,7 +61,10 @@ class GenericUtils:
 
     @staticmethod
     def str_convert(text):
-        return ''.join(text)
+        if text is None:
+            return ''
+        else:
+            return ''.join(text)
 
     def generic_output(self, output):
         self.load_separator('underscore')
