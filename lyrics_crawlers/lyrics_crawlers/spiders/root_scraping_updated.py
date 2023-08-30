@@ -32,13 +32,10 @@ class RootScraping2(scrapy.Spider):
             t.sleep(5)
 
     def parse(self, response, **kwargs):
+        # Scrape links
         t.sleep(5)
         self.iteration += 1
-        print(">> Scraping Letter ", self.iteration)
-        # Scrape links
         scrape_html = self.sc.xpath_scrape(response, self.body_xpath)
-        # print(scrape_html)
         string_text = ''.join(scrape_html)
-        print(type(string_text))
 
         self.sc.save_text(self.directory, str(self.iteration), 'html', string_text)
