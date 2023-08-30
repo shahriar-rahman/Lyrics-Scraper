@@ -23,6 +23,12 @@ class ScrapeUtils:
 
         return selection if selection else None
 
+    @staticmethod
+    def save_text(path, index, ext, content):
+        with open(path + index + f'.{ext}', 'w', encoding="utf-8") as f:
+            f.write(content)
+            f.close()
+
 
 if __name__ == "__main__":
     main = ScrapeUtils()

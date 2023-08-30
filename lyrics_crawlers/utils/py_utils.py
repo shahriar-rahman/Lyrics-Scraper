@@ -50,14 +50,16 @@ class GenericUtils:
         else:
             print("Dataframe storage is successful.")
 
-
     @staticmethod
-    def load_separator(key):
-        if key == 'dash':
+    def load_separator(*arg):
+        if arg == 'dash':
             print('-' * 150)
 
-        elif key == 'underscore':
+        elif arg == 'underscore':
             print('_' * 150)
+
+        else:
+            print('-' * 150)
 
     @staticmethod
     def str_convert(text):
